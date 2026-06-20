@@ -48,6 +48,7 @@ This template requires the FontAwesome desktop fonts to render icons correctly. 
 ### Functions
 
 #### `cv`
+
 The main template function. Pass all document content through it via `#show: cv.with(...)`.
 
 | Parameter | Type | Default | Description |
@@ -76,6 +77,7 @@ All contact fields are optional — omit any you don't want displayed.
 ---
 
 #### `section`
+
 Creates a labeled section with a dividing rule.
 
 ```typst
@@ -87,6 +89,7 @@ Creates a labeled section with a dividing rule.
 ---
 
 #### `entry`
+
 The core repeating unit for experience, education, projects, and awards. Title and date sit on the same line, subtitle and body below.
 
 ```typst
@@ -104,6 +107,7 @@ All parameters except `body` are optional. Pass an empty body `[]` for entries w
 ---
 
 #### `skill`
+
 Renders a skill as a rounded pill. Set `highlight: true` for skills you want to emphasize — these use the `skill-highlight-color`.
 
 ```typst
@@ -114,6 +118,7 @@ Renders a skill as a rounded pill. Set `highlight: true` for skills you want to 
 ---
 
 #### `languages`
+
 Displays a list of languages in a three-column grid.
 
 ```typst
@@ -127,6 +132,7 @@ Displays a list of languages in a three-column grid.
 ---
 
 #### `publication`
+
 Formats an academic publication entry with optional DOI link.
 
 ```typst
@@ -145,6 +151,7 @@ All fields except `title` are optional.
 ---
 
 #### `body_link`
+
 Renders a hyperlink with an external link icon and the configured `link-color`. Use this for links inside entry bodies.
 
 ```typst
