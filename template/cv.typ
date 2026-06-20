@@ -1,4 +1,4 @@
-#import "template.typ": *
+#import "@preview/luminar-cv:0.1.0": *
 
 #show: cv.with(
   name: [John Doe],
